@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <title>Shooting Game</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Shooting Game</h1>
+        <img src="./images/shooting.png" class="logo" />
+    </div>
+
+    <div class="score">
+        <div class="left display-score">
+            <div class="player">Player 1</div>
+            <div class="scoreing">
+                <p>Win</p>
+                <p id="player1">0</p>
+            </div>
+        </div>
+        <div class="right display-score">
+            <div class="player">Player 2</div>
+            <div class="scoreing">
+                <p>Win</p>
+                <p id="player2">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="playerProfile">
+        <!-- player1 -->
+        <div class="playerLeft">
+            <img src="./images/left (1).png" class="playerImg" />
+            <img src="./images/leftFire.png" class="leftFire" />
+        </div>
+        <div class="playerRight">
+            <img src="./images/right.png" class="playerImg" />
+            <img src="./images/rightFire.png" class="rightFire" />
+        </div>
+
+    </div>
+
+    <div class="button">
+        <button class="btn shootbtn" onClick="shootBtn()">Shoot</button>
+        <button class="btn" onClick="reset()">Reset</button>
+    </div>
+
+    <div class="result">
+        <h4></h4>
+    </div>
+
+</body>
+
+</html>
